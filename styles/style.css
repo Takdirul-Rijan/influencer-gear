@@ -1,0 +1,36 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: rgba(58, 58, 58, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.bars {
+  display: none;
+}
+.logo {
+  color: rgba(58, 58, 58, 1);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+  .nav-links li:not(.cart) {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+}
