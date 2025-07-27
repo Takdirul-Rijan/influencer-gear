@@ -29,6 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 .banner-title {
   color: #3a3a3a;
@@ -56,6 +57,94 @@ button:hover {
 .banner-img img {
   background-image: url("../images/Circle\ design.svg");
 }
+/* Logo Section */
+.logo-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  margin-top: 100px;
+  height: 110px;
+  box-shadow: 0 5px 15px color(rgba(170, 170, 170, 1));
+}
+.logos-left {
+  display: flex;
+  gap: 20px;
+}
+.logos-right {
+  display: flex;
+  gap: 20px;
+}
+/* Popular collection */
+.popular-collection {
+  text-align: center;
+}
+.collection-row-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.collection-row-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.collection-row-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.see-more {
+  text-align: end;
+  margin-top: 20px;
+  color: chocolate;
+}
+
+/* GRID */
+.cards-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.single-card {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+}
+/* featured-section */
+.featured-section {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.featured-title {
+  color: rgba(10, 8, 38, 1);
+  font-size: 38px;
+  font-weight: bold;
+}
+.featured-description {
+  color: rgba(108, 108, 108, 1);
+  font-size: 16px;
+  font-weight: bold;
+}
+.featured-btn {
+  background-color: rgba(224, 44, 109, 1);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+}
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
@@ -79,6 +168,27 @@ button:hover {
     flex-direction: column-reverse;
   }
   .banner-text {
+    text-align: center;
+  }
+  .logo-section {
+    display: block;
+  }
+  .collection-row-one {
+    display: block;
+  }
+  .collection-row-two {
+    display: block;
+  }
+  .collection-row-three {
+    display: block;
+  }
+  .cards-collection {
+    grid-template-columns: 1fr;
+  }
+  .featured-section {
+    flex-direction: column-reverse;
+  }
+  .featured-text {
     text-align: center;
   }
 }
