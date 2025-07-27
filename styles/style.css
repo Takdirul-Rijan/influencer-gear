@@ -4,6 +4,7 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
+  padding: 30px;
 }
 .nav-links {
   display: flex;
@@ -30,6 +31,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  padding: 30px;
 }
 .banner-title {
   color: #3a3a3a;
@@ -79,6 +81,7 @@ button:hover {
 /* Popular collection */
 .popular-collection {
   text-align: center;
+  padding: 30px;
 }
 .collection-row-one {
   display: flex;
@@ -101,11 +104,16 @@ button:hover {
 .card {
   background-color: whitesmoke;
   border-radius: 10px;
+  padding: 20px;
 }
+
 .see-more {
   text-align: end;
   margin-top: 20px;
   color: chocolate;
+}
+.see-more a {
+  text-decoration: none;
 }
 
 /* GRID */
@@ -127,7 +135,7 @@ button:hover {
   display: flex;
   gap: 50px;
   margin-top: 30px;
-  margin-left: 20px;
+  padding: 30px;
 }
 .featured-title {
   color: rgba(10, 8, 38, 1);
@@ -144,6 +152,27 @@ button:hover {
   color: white;
   border: none;
   padding: 10px 24px;
+}
+/* footer section */
+.footer-section {
+  background-color: black;
+  height: 150px;
+  text-align: center;
+  padding-top: 30px;
+}
+.footer-title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-description {
+  color: rgba(217, 219, 225, 1);
+  font-size: 14px;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
 /* Responsive Media Query */
