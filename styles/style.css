@@ -85,18 +85,21 @@ button:hover {
 }
 .collection-row-one {
   display: flex;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
 }
 .collection-row-two {
   display: flex;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
 }
 .collection-row-three {
   display: flex;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
